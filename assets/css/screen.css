@@ -753,6 +753,11 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 }
 
+/* For inline little images within the text*/
+.post-full-content p img {
+    display: inline;
+    margin: 0;
+}
 
 /* Full bleed images (#full)
 Super neat trick courtesy of @JoelDrapper
