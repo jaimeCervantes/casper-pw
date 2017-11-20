@@ -178,7 +178,7 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 100px;
 }
 
 .site-description {
@@ -240,7 +240,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: block;
     margin-right: 24px;
-    padding: 11px 0;
+    /*padding: 11px 0;*/
     color: #fff;
     font-size: 1.7rem;
     line-height: 1em;
@@ -255,7 +255,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .site-nav-logo img {
     display: block;
     width: auto;
-    height: 21px;
+    height: 40px;
 }
 
 .nav {
@@ -753,10 +753,13 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 }
 
-/* For inline little images within the text*/
-.post-full-content p img {
-    display: inline;
-    margin: 0;
+@media (min-width: 1px) {
+    /* For inline little images within the text*/
+    .post-full-content p img {
+        display: inline;
+        margin: 0;
+        width: auto;
+    }
 }
 
 /* Full bleed images (#full)
