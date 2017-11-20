@@ -101,6 +101,21 @@ body {
     }
 }
 
+/* For black background in home to be able read the test in front cover gif image*/
+.home-template .site-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.home-template .site-header .inner {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.home-template .site-header nav.site-nav {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
