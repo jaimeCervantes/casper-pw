@@ -39,8 +39,8 @@ into the {body} of the default.hbs template --}}
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.subscribers}}
             <section class="subscribe-form">
-                <h3 class="subscribe-form-title">Subscribe to {{@blog.title}}</h3>
-                <p>Get the latest posts delivered right to your inbox</p>
+                <h3 class="subscribe-form-title">Suscribete a {{@blog.title}}</h3>
+                <p>Obten los últimas publicaciones en tu bandeja de entrada</p>
                 {{subscribe_form placeholder="youremail@example.com"}}
             </section>
             {{/if}}
@@ -144,7 +144,7 @@ into the {body} of the default.hbs template --}}
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} →</a>
+                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='Sin posts' singular='% post' plural='Ver todos los % posts'}} →</a>
                     </footer>
                 </article>
                 {{/if}}
