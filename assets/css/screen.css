@@ -108,7 +108,8 @@ body {
 }
 
 .home-template .site-header .inner {
-    background-color: rgba(0,0,0,0.8);
+    /* background-color: rgba(0,0,0,0.8); */
+    background-color: rgba(0,0,0,0.4);
 }
 
 .home-template .site-header nav.site-nav {
@@ -188,7 +189,7 @@ body {
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 @media (max-width: 500px) {
